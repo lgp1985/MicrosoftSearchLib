@@ -40,22 +40,22 @@
         public virtual extern uint PortNumber { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x60010004)]
-        public virtual extern string Microsoft.Search.Interop.ISearchManager.ProxyName { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern string Microsoft.Search.Interop.ISearchManager.ProxyName { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x60010005)]
-        public virtual extern string Microsoft.Search.Interop.ISearchManager.BypassList { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern string Microsoft.Search.Interop.ISearchManager.BypassList { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x60010008)]
-        public virtual extern string Microsoft.Search.Interop.ISearchManager.UserAgent { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; [param: In, MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] set; }
+        extern string Microsoft.Search.Interop.ISearchManager.UserAgent { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; [param: In, MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] set; }
 
         [DispId(0x6001000a)]
-        public virtual extern _PROXY_ACCESS Microsoft.Search.Interop.ISearchManager.UseProxy { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern _PROXY_ACCESS Microsoft.Search.Interop.ISearchManager.UseProxy { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x6001000b)]
-        public virtual extern int Microsoft.Search.Interop.ISearchManager.LocalBypass { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern int Microsoft.Search.Interop.ISearchManager.LocalBypass { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x6001000c)]
-        public virtual extern uint Microsoft.Search.Interop.ISearchManager.PortNumber { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern uint Microsoft.Search.Interop.ISearchManager.PortNumber { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
     }
 }
 

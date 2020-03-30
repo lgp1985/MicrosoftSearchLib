@@ -20,16 +20,16 @@
         public virtual extern uint FollowFlags { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x60010000)]
-        public virtual extern string Microsoft.Search.Interop.ISearchScopeRule.PatternOrURL { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern string Microsoft.Search.Interop.ISearchScopeRule.PatternOrURL { [return: MarshalAs(UnmanagedType.LPWStr)] [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x60010001)]
-        public virtual extern int Microsoft.Search.Interop.ISearchScopeRule.IsIncluded { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern int Microsoft.Search.Interop.ISearchScopeRule.IsIncluded { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x60010002)]
-        public virtual extern int Microsoft.Search.Interop.ISearchScopeRule.IsDefault { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern int Microsoft.Search.Interop.ISearchScopeRule.IsDefault { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
 
         [DispId(0x60010003)]
-        public virtual extern uint Microsoft.Search.Interop.ISearchScopeRule.FollowFlags { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
+        extern uint Microsoft.Search.Interop.ISearchScopeRule.FollowFlags { [MethodImpl(MethodImplOptions.InternalCall, MethodCodeType=MethodCodeType.Runtime)] get; }
     }
 }
 
