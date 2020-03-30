@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
     <ProjectType>local</ProjectType>
     <ProjectVersion>7.10.377</ProjectVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d423057b-69de-4e26-ac09-86f890ef1d3b</ProjectGuid>
+    <ProjectGuid>{D423057B-69DE-4E26-AC09-86F890EF1D3B}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <AssemblyName>SearchAPILib</AssemblyName>
     <OutputType>Library</OutputType>
@@ -160,5 +160,8 @@
     <Compile Include="Microsoft\Search\Interop\CSearchScopeRule.cs" />
     <Compile Include="Microsoft\Search\Interop\CSearchPersistentItemsChangedSinkClass.cs" />
     <Compile Include="Microsoft\Search\Interop\CSearchPersistentItemsChangedSink.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
   </ItemGroup>
 </Project>
